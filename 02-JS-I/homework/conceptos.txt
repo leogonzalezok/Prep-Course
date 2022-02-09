@@ -1,0 +1,70 @@
+1. Explicaciones.
+
+  • Variables: 
+    Las variables nos permiten almacenar información, como por ejemplo un nombre, un teléfono
+    la fecha del cumpleaños de un amigo, y muchas otros tipos de valores.
+    Existen 3 palabras claves para decirle a la computadora que queremos crear una variable,
+    y almacenar un valor.
+
+    ○ const: Este tipo de variable nos permiten almacenar información constante, que no va a cambiar.
+      const nombreDeUsuario = 'Pedro';
+
+    ○ var: nos permite almacenar información que puede o no cambiar. Y la principal caracteristica
+    que tiene es que la información va a estar disponible en toda nuestra aplicación,
+    algo que suele ser necesario cuando programamos.
+      var FechaDeHoy = '09/02/2022';
+
+    ○ let: es similar a var, con la diferencia de que nos permite guardar información
+    solo en una parte de nuestro código.
+      let horaActual = '14:35';
+
+  • Strings:
+    Los Strings son bloques de texto que se escriben entre comillas. Cualquier información
+    que se escribe entre comillas pasa a ser un String.
+
+    Por ejemplo: 
+      var nombre = "Pedro";
+      let telefono = "351 000 0000";
+    
+  • Funciones (argumentos, return):
+    Las funciones son una de las mejoras herramientas que tenemos como programadores.
+    Nos permiten delegar tareas especificas. Es como en el colegio, cuando el profesor
+    nos da una tarea para hacer, nos dice la consigna y las condiciones. Nosotros tomamos esa información,
+    realizamos la tarea y se la entregamos al profesor.
+
+    En programación pasa lo mismo, por ejemplo, si tuvieramos que crear una funcion que sume dos numeros hariamos 
+    lo siguiente: 
+    
+    // De esta manera llamamos a la funcion, pasandole la información necesaria, lo que llamamos ARGUMENTOS.
+    sumarNumeros(5, 6);
+    
+    // Con la palabra function definimos la funcion y le asignamos un nombre, entre parentesis le ponemos una referencia a los argumentos.
+    function sumarNumeros(a, b){
+      // La palabra return nos va devolver la suma de ( a + b ) en este caso ( 5 + 6 ). Es como entregar la tarea al profesor una vez terminada. 
+      return a + b;
+    }
+
+  • Declaraciones if
+    Las Declaraciones if nos permiten analizar si una condición es verdadera o falsa y según esa respuesta
+    realizar una ú otra acción. Por ejemplo un profesor que tiene que evaluar a un alumno, si está en condiciones de aprobar
+    la condición se vuelve verdadera pero si no se vuelve falsa.
+    Se Declara de la siguiente manera:
+
+    let examen = 'aprobado';
+
+    if( examen === 'aprobado' ){ 
+      // Si el examen es aprobado 
+      return 'El alumno paso al siguiente año';
+    }else{
+      // Si no es aprobado el examen 
+      return 'El alumno tiene otra oportunidad en febrero';
+    }
+
+
+  • Valores booleanos (true, false)
+  Existen dos valores booleanos true que significa verdadero, y false que significa falso.
+  
+  Por ejemplo:
+  var elPagoFueRealizado = true;
+
+  ACLARACÍON: los valores booleanos NO se escriben entre comillas.
